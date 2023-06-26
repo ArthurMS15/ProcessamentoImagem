@@ -1,0 +1,13 @@
+O pré-processamento da imagem realizou uma série de etapas para melhorar a qualidade do reconhecimento de caracteres na placa; 
+Inicialmente, aplicou-se um filtro gaussiano para suavizar a imagem, reduzindo o ruído e tornando-a mais adequada para análise; 
+Em seguida, utilizou-se a limiarização de Otsu para binarizar a imagem, destacando a placa em relação ao fundo; 
+Posteriormente, foram aplicadas operações de erosão e dilatação para remoção de pequenos detalhes e conexão de regiões; 
+Por fim, a abertura e o fechamento foram realizados para eliminar ruídos e preencher lacunas nos objetos;
+Essas etapas de pré-processamento contribuíram para uma imagem mais clara, destacando a placa e facilitando a etapa de reconhecimento de caracteres.
+
+Ao longo do pré-processamento, cada etapa desempenhou uma função específica na imagem;
+A suavização reduziu o ruído, enquanto a limiarização permitiu a segmentação da placa; 
+A erosão e a dilatação removeram pequenos detalhes e conectaram regiões, melhorando a consistência dos objetos;
+A abertura ajudou a remover ruídos e suavizar as bordas, enquanto o fechamento preencheu lacunas e suavizou as bordas dos objetos; 
+Combinadas, essas etapas trabalharam em conjunto para aprimorar a qualidade da imagem e preparar a placa para a etapa de reconhecimento 
+de caracteres, melhorando assim a eficiência e a precisão do processo.
